@@ -129,12 +129,11 @@ Diretrizes para transformação dos dados
 
 
 <br>
-<br>
-<br>
+
 Os arquivos utilizados na resolução do desafio está no repositório. Publiquei o relatório, que pode ser acessado no link abaixo
 <br> <br>
 
-[![PowerBI](https://img.shields.io/badge/PowerBI-Desafio_DIO-%23F2C811?style=for-the-badge&logo=PowerBI&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiZDlkMGFiMjktY2JlNy00YzFmLTgwNTMtODg0ZDc2ZDcxZjA5IiwidCI6ImMwZmQwMGVhLThmNzQtNDBhZC04ZjMyLWJlZjAyYzk4M2IwNyJ9)
+[![PowerBI](https://img.shields.io/badge/PowerBI-Desafio_DIO-%23F2C811?style=for-the-badge&logo=PowerBI&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiM2IyZDRhMjQtOTQ1MS00ODZlLTgwNTQtZTY2NzEwMjlkNDJjIiwidCI6ImMwZmQwMGVhLThmNzQtNDBhZC04ZjMyLWJlZjAyYzk4M2IwNyJ9)
 
 <br>
 <br>
