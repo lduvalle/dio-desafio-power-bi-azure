@@ -20,13 +20,26 @@ Tenho como principais hobbies:
 ---
 
 Este repositório representa a entrega do projeto: Processando e Transformando Dados com Power BI
-<br>
-<br>
+<br><br><br>
+
+[<img align="center" src="https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_276.png?raw=true" width="800"/>](https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_276.png?raw=true)
+
+<br><br><br>
 O desafio consistia em:
 1.	Criação de uma instância na Azure para MySQL
+<br><br>
+[<img align="center" src="https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_281.png?raw=true" width="400"/>](https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_281.png?raw=true)
+<br><br>
 2.	Criar o Banco de dados com base disponível no github
+<br><br>
+[<img align="center" src="https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_282.png?raw=true" width="400"/>](https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_282.png?raw=true)
+<br><br>
 3.	Integração do Power BI com MySQL no Azure 
+<br><br>
+[<img align="center" src="https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_283.png?raw=true" width="400"/>](https://github.com/lduvalle/dio-desafio-power-bi-azure/blob/main/01.%20Imagens/Screenshot_283.png?raw=true)
+<br><br>
 4.	Verificar problemas na base a fim de realizar a transformação dos dados
+
 
 
 <br>
@@ -73,22 +86,31 @@ Diretrizes para transformação dos dados
         	Mescla realizada no Power Query adicionando a consulta “azure_company employee X Departament
 10.	Neste processo elimine as colunas desnecessárias. 
 
-        	Não há informações sobre o que é necessário ou não. Não há delimitação de escopo. Para atender à solicitação da questão 9, apenas importei o nome do departamento, reduzindo a quantidade de etapas aplicadas no Power BI.
+        	Não há informações sobre o que é necessário ou não. 
+            Não há delimitação de escopo. Para atender à solicitação da questão 9, 
+            apenas importei o nome do departamento, reduzindo a quantidade de etapas aplicadas no Power BI.
 
 11.	Realize a junção dos colaboradores e respectivos nomes dos gerentes . Isso pode ser feito com consulta SQL ou pela mescla de tabelas com Power BI. Caso utilize SQL, especifique no README a query utilizada no processo.
 
-        	Consultas mescladas no Power Query gerando a “azure_company Employee X Manager Name”. O nome do gerente foi adicionado ao lado da coluna Super_ssn
+        	Consultas mescladas no Power Query gerando a 
+            “azure_company Employee X Manager Name”.
+         O nome do gerente foi adicionado ao lado da coluna Super_ssn
 
 12.	Mescle as colunas de Nome e Sobrenome para ter apenas uma coluna definindo os nomes dos colaboradores
-        	Realizado na consulta “azure_company Employee X Manager Name”, tanto com o nome do funcionário, quanto com o nome do gerente.
+
+        	Realizado na consulta “azure_company Employee X Manager Name”, 
+            tanto com o nome do funcionário, quanto com o nome do gerente.
 
 13.	Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
 
-        	Realizado na consulta “azure_company departament”. Existe um erro nesta etapa, pois a tabela consta 3 localidades para o mesmo setor.
+        	Realizado na consulta “azure_company departament”. 
+            Existe um erro nesta etapa, pois a tabela consta 3 localidades para o mesmo setor.
 
 14.	Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir. 
 
-        	A mescla dos setores funciona como um Inner Join, utilizando o campo Dnumber como chaves. É a única maneira de responder a questão supracitada (13).
+        	A mescla dos setores funciona como um Inner Join, 
+            utilizando o campo Dnumber como chaves. 
+            É a única maneira de responder a questão supracitada (13).
 
 15.	Agrupe os dados a fim de saber quantos colaboradores existem por gerente
 
@@ -96,10 +118,16 @@ Diretrizes para transformação dos dados
 
 16.	Elimine as colunas desnecessárias, que não serão usadas no relatório, de cada tabela
 
-        	Esta é uma etapa com escopo indefinido. Não foi passado o tipo de análise que será executado. Eliminar colunas cria etapas aplicadas no Power Query, caso seja necessário utilizar novamente estes dados, e houver uma ação posterior, algumas métricas e relacionamentos efetuados após a exclusão podem ficar comprometidas. Para eliminar as colunas, é necessária a definição do *ESCOPO DE PROJETO*. Foi realizada a ocultação de campos e tabelas desnecessárias.
+        	Esta é uma etapa com escopo indefinido. Não foi passado o tipo de análise que será executado.
+            Eliminar colunas cria etapas aplicadas no Power Query, 
+            caso seja necessário utilizar novamente estes dados, 
+            e houver uma ação posterior, algumas métricas e relacionamentos 
+            efetuados após a exclusão podem ficar comprometidas. 
+            Para eliminar as colunas, é necessária a definição do *ESCOPO DE PROJETO*. 
+            Foi realizada a ocultação de campos e tabelas desnecessárias.
 
 
-<img align="center" src="https://github.com/lduvalle/dio-desafio-power-bi-vendas/blob/main/002.%20Imagens/pag2.png?raw=true" width="800"/> 
+
 <br>
 <br>
 <br>
